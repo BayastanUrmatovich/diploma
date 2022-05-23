@@ -7,9 +7,9 @@ function Products() {
   return (
     <>
       <Header
-        title="Pick your type of coffee!"
+        title="now we have!"
         image={headerImage}>
-        The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
+        No matter who you are or what you’re about, we’ve got the swimsuit styles and accessories to keep your summer wardrobe afloat this year. From swim trunks, plus size bathing suits, bikinis, one-pieces, skirted suits, and more, Hot Topic’s got the summer must-have you’re looking for.
       </Header>
 
       <ProductList products={getProducts()} />
