@@ -5,9 +5,10 @@ function Home() {
   return (
     <>
       <Header
-        title="Welcome to our coffee shop!"
+        title="Welcome to our anime shop!"
         image={headerImage}>
-        A coffee bean is a seed of the Coffea plant and the source for coffee. It is the pip inside the red or purple fruit often referred to as a cherry. Just like ordinary cherries, the coffee fruit is also a so-called stone fruit. Even though the coffee beans are not technically beans, they are referred to as such because of their resemblance to true beans.
+       
+Hear us out—your pad is the place to express yourself. If it’s not filled with all the fandom faves you love, it’s basically just a place to lay your head at night. Don’t you want to make that house a home? We bet you do. That’s why we’ve stepped it up and created the ultimate collection your space has been missing—meet the Hot Topic Home collection, a carefully curated selection of cool posters, bedding, homewares, board games, collectibles, and fun home décor that’s all about turning your space into your fan-favorite kingdom.
       </Header>
     </>
   );
