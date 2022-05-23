@@ -7,7 +7,7 @@ function NotFound() {
       <Header
         title="Page not found"
         image={headerImage}>
-        Maybe the page you are looking for was moved or deleted.
+        Maybe 
       </Header>
     </>
   );
