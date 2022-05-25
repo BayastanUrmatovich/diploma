@@ -1,25 +1,24 @@
 .Nav {
-    background-color: rgb(63, 29, 5);
-    color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  }
-  .Nav .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 987px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  .Nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  @media (max-width: 600px) {
-    .Nav ul {
-      display: none;
-    }
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(63, 29, 5);
+  color: white;
+  padding: 0 1rem;
+}
+.Nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.Nav a {
+  display: block;
+  padding: .5rem 1rem;
+  color: white;
+  font-size: .8rem;
+  text-decoration: none;
+}
+.Nav a:hover {
+  background-color: rgba(255, 255, 255, .1);
+}
