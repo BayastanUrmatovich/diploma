@@ -1,15 +1,16 @@
 import "./Header.css";
+import headerImage from "../../assets/header.jpg";
 
-function Header({ image, title, children }) {
+function Header() {
+  const style = {
+    backgroundImage: `url(${headerImage})`
+  };
+
   return (
-    <header className="Header">
-      <img src={image} alt={title} />
-      <section>
-        <h1>{title}</h1>
-        <p>{children}</p>
-      </section>
+    <header className="Header" style={style}>
+      <h1>The most fresh coffee beans</h1>
+      <p>This is an internet shop</p>
     </header>
   );
 }
-
 export default Header;

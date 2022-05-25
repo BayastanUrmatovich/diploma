@@ -3,11 +3,8 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="Footer">
-      <div className="container">
-        Anime store karakol 2022
-      </div>
+      Fresh Coffee Beans 2022
     </footer>
   );
 }
-
 export default Footer;

@@ -1,20 +1,20 @@
-import classes from "./Nav.module.css";
-import Logo from "../ui/Logo/Logo";
-import NavItem from "./NavItem/NavItem";
-import NavToggle from "./NavToggle/NavToggle";
-
+import "./Nav.css";
 function Nav() {
   return (
-    <nav className={classes.Nav}>
-      <div className={classes.container}>
-        <Logo />
-        <ul>
-          <NavItem url="/">Home</NavItem>
-          <NavItem url="/products">Products</NavItem>
-          <NavItem url="/contacts">Contacts</NavItem>
-        </ul>
-        <NavToggle />
-      </div>
+    <nav className="Nav">
+      <div>Fresh Coffee Beans</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Categories</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Products</a></li>
+        <li><a href="/">Contacts</a></li>
+      </ul>
     </nav>
   );
 }
